@@ -36,3 +36,25 @@ const myFunction = function(){
 myFunction();
 
 console.log(typeof scorevalue)
+
+
+//***************Stack & Heap****************
+
+let myYoutubeName = "uzair nazir";
+
+let anotherName = myYoutubeName;
+anotherName = "Fahad"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let user1 = {
+email : "uzair32@gmail.com",
+address: "xyz"
+}
+let user2 = user1;
+user2.email = "sdfsdff2HOTMAIL.COM";
+
+console.log(user1.email) // both users emails are changed by change one of them
+console.log(user2.email)
+
