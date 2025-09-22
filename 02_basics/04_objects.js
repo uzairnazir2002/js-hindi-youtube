@@ -1,18 +1,18 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const amazonUser = new Object()
+const amazonUser = {}
 
-tinderUser.id = "123abc"
-tinderUser.name = "Sammy"
-tinderUser.isLoggedIn = false
+amazonUser.id = "123abc"
+amazonUser.name = "Sammy"
+amazonUser.isLoggedIn = false
 
-// console.log(tinderUser);
+// console.log(amazonUser);
 
 const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
+            firstname: "uzair",
+            lastname: "awan"
         }
     }
 }
@@ -46,19 +46,19 @@ const users = [
 ]
 
 users[1].email
-// console.log(tinderUser);
+// console.log(amazonUser);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+// console.log(Object.keys(amazonUser));
+// console.log(Object.values(amazonUser));
+// console.log(Object.entries(amazonUser));
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(amazonUser.hasOwnProperty('isLoggedIn'));
 
 
 const course = {
-    coursename: "js in hindi",
+    coursename: "js in urdu",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "uzair"
 }
 
 // course.courseInstructor
@@ -69,8 +69,8 @@ const {courseInstructor: instructor} = course
 console.log(instructor);
 
 // {
-//     "name": "hitesh",
-//     "coursename": "js in hindi",
+//     "name": "uzair",
+//     "coursename": "js in urdu",
 //     "price": "free"
 // }
 
